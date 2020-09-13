@@ -31,7 +31,7 @@ This script downloads a random, high resolution, landscape Image from [unsplash.
     * Goto `Actions > New... > Start a program`,
         * Program/script: `powershell.exe`,
         * Add Arguments: `-nologo -windowstyle Hidden python .\windowsWallpaperChanger.py`,
-        * Start in: *Parent directory of script*.
+        * Start in: *Full path of script's parent directory*.
     * Goto `Conditions` tab,
         * Uncheck `Start the task only if the computer is on AC power`.
         * Check `Start only if the following network connection is available` and select `Any connection` from dropdown.
